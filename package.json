@@ -1,0 +1,17 @@
+{
+  "name": "nonprofit-live-poll-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/run_live_poll.ts",
+    "test": "node --experimental-strip-types --test src/poll_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
